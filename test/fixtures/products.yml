@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  price: 
+  color: MyString
+  product_status: false
+  inward_date: 2017-08-09
+  product_type: MyString
+  description: MyString
+
+two:
+  name: MyString
+  price: 
+  color: MyString
+  product_status: false
+  inward_date: 2017-08-09
+  product_type: MyString
+  description: MyString
