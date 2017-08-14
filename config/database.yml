@@ -48,4 +48,7 @@ test:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
 production:
-  url: <%= ENV['DATABASE_URL'] %>
+  <<: *default
+  url: ENV['DATABASE_URL']
+  username: ENV['CLEARDB_DATABASE_USERNAME']
+  password: ENV['CLEARDB_DATABASE_PASSWORDs']
